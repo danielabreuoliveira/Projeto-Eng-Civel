@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView_primeira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/primeira_imagem"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button_primeira"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="calcularActivity"
+        android:text="Calcular"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="-45dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <EditText
+        android:id="@+id/editText_q"
+        android:layout_width="107dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="145dp"
+        android:ems="10"
+        android:hint="Q"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <EditText
+        android:id="@+id/editText_l"
+        android:layout_width="104dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="124dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="L"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+</RelativeLayout >
